@@ -4,8 +4,8 @@ import csv
 def connect():
     return psycopg2.connect(
         host="localhost",
-        database="LAB10",
-        user="postgres",
+        database="postgres",
+        user="LAB10",
         password="5432"
     )
 
